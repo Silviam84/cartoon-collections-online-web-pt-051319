@@ -6,13 +6,7 @@ describe "Cartoon Collections" do
       dwarves = ["Dopey", "Grumpy", "Bashful"]
 
       output = capture_stdout do
-        roll_call_dwarves(dwarves)
-      end
-
-      # This regex allows for arbitrary characters between
-      # the numbering and the name
-      expect(output).to match(/1.*Dopey/)
-      expect(output).to match(/2.*Grumpy/)
+      
       expect(output).to match(/3.*Bashful/)
     end
   end
