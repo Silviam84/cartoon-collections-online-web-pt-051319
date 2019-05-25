@@ -1,4 +1,6 @@
-
+def options_from_collection_for_select
+  planetter-calls =
+  {"earth", "wind", "fire", "water", "heart"]
     end
 
     it "returns false if all calls are 4 characters or less" do
